@@ -1,16 +1,23 @@
-# For Loop
+# # For Loop
 
-# Example 1 
-l= [1,2,3,88,95]
+# # Example 1 
+# l= [1,2,3,88,95]
 
-for i in l:
-    print(i)
+# for i in l:
+#     print(i)
 
-# Example 2
+# # Example 2
 
-list1= ['Mango','Banana','Pineapple','Muskmelon']
+# list1= ['Mango','Banana','Pineapple','Muskmelon']
 
-for i in list1:
-    print(i)
+# for i in list1:
+#     print(i)
     
-print("hello")
+# print("hello")
+
+a= "*"
+b= 1
+for i in range (0,11):
+    b=a*i
+    i+=1
+    print(b)
